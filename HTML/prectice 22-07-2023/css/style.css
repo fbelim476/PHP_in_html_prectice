@@ -1,0 +1,45 @@
+body{
+    background-image: url(../images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #22ea1f;
+    background-attachment: fixed;
+}
+
+img{
+    width:100px;
+    height: auto;
+}
+
+fieldset{
+    margin: 0% 35%;
+}
+
+form{
+    text-align: center;
+    padding:30px;
+}
+
+input{
+    margin:10px;
+    padding: 5px;
+    width: 215px;
+    border-radius: 8px;
+    border: 2px solid #22ff00;
+}
+
+textarea{
+    border-radius: 8px;
+    border: 2px solid #22ff00;
+}
+
+em{
+    color: red;
+}
+
+input[type=submit]{
+    width: 340px;
+    height: 50px;
+    background-color: rgb(234, 195, 67);
+    border-radius: 8px;
+}
