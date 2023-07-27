@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding:0% ;
+}
+
+/* Navbar styling */
+
+.logo-img{
+    background-color: black;
+    border-radius: 3px;
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(27, 146, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+.navbar ul{
+    margin-left: 60%;
+}
+
+.navbar ul li{
+    padding: 0px 4px;
+    display: inline;
+    
+}
+
+.navbar ul li a:hover{
+    padding: 8px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+}
+
+/* section styling */
+
+h1{
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: aliceblue;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.first{
+    width: 45%;
+    height: auto;
+    margin: 5%;
+    background-color: rgb(128, 131, 131);
+
+}
+
+.second{
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    margin-top: 10px;
+    background-color: rgb(128, 131, 131);
+
+}
+
+.address{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    padding: 90px;
+    background-color: white;
+}
+
+.address-sec{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.icon-add{
+    display: flex;
+}
+
+.second .address p{
+    margin-top: 5px;
+}
+
+/* Form formating */
+
+table{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form{
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+}
+
+input{
+    margin: 20px;
+    padding: 4px;
+    width: 400px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgb(128, 131, 131);
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 2px solid black;
+}
+
+input[type=submit]:focus{
+    border: 2px solid black;
+    outline: none;
+    border-radius: 8px;;
+}
+input[type=submit]:hover{
+    background-color: black;
+    color: white;
+}
+
+input[type=submit]{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer styling */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(27, 146, 236);
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.main-footer p{
+    font-size: 20px;
+    color: white;
+}

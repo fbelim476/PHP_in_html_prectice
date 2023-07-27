@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- internal Style -->
+
+  <style>
+    form{
+      width: 500px;
+      margin: auto;
+      padding: 30px;
+      text-align: center;
+      border: 2px solid black;
+      margin-top: 8%;
+      border-radius: 8px;
+      background-color: lightgray;
+
+    }
+
+    .main{
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 8px;
+      background-color: rgb(255, 255, 255);
+    }
+
+    input{
+      width: 416px;
+      height: 35px;
+      color: blue;
+      border-radius: 8px;
+    }
+
+  input[type=submit]{    
+    background-color: rgb(0, 98, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    hight: 10px;
+    width: 200px;
+  }
+
+    input:focus{
+      border: none;
+      outline: none;
+      border-radius: 0px;
+      border-bottom: 2px solid blue;
+    }
+
+    i{
+      padding: 9px;
+      font-size: 20px;
+      color: rgb(0, 98, 255);
+    }
+
+  </style>
+  
+
+</head>
+<body>
+<form action="#">
+    
+  <h1>Log In</h1>
+  <div class="first-div">
+      <div class="main">
+        <label for="uname"><i class="fa-solid fa-user"></i></label>
+        <input type="text" name="uname" placeholder="Enter your User Name" >
+      </div>
+
+      <div class="main">
+        <label for="password"><i class="fa-solid fa-lock"></i></i></label>
+        <input type="password" name="password" placeholder="Enter password" >
+      </div>
+
+      <div class="main">
+        <input type="submit" value="Registred">
+      </div>
+
+      <p>Registre for New User <a href="sign-up.html">Sign Up</a> <br><a style="text-decoration: none;" href="all-prectice-on-26-07-23.html"> Home</a></p>
+</div>
+</form>
+  
+</body>
+</html>
